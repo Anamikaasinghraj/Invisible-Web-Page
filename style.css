@@ -1,0 +1,101 @@
+/* General body styles */
+body {
+    background-color: #dff6f0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background image */
+.backgroundImage {
+    width: 100%;
+    display: block;
+}
+
+/* Name / header */
+.name {
+    font-family: 'Dancing Script', cursive;
+    color: #272343;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* Headings */
+.heading {
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    color: #32407b;
+    font-weight: bold;
+}
+
+/* Section backgrounds */
+.odd {
+    background-color: #9be3de;
+}
+
+.even {
+    background-color: #ffffff;
+}
+
+/* Horizontal line */
+hr {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Section titles */
+h3 {
+    margin-top: 0;
+    padding: 2% 0;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2rem;
+}
+
+/* Paragraphs and lists */
+p, li {
+    margin: 0 8% 2rem 8%;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+/* Fade effect on hover */
+p:hover, li:hover {
+    opacity: 1;
+}
+
+/* Images */
+.journey, .experience, .trust {
+    display: block;
+    margin: 2rem auto;
+}
+
+/* Specific image sizes */
+.journey {
+    width: 15%;
+}
+
+.experience {
+    width: 25%;
+}
+
+.trust {
+    width: 15%;
+}
+
+/* Links in footer */
+footer a {
+    color: #32407b;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer a:hover {
+    color: #272343;
+}
