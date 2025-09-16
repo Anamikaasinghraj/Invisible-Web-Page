@@ -36,17 +36,6 @@
 
 ---
 
-## 📂 Project Structure
-
-/Invisible-Web-Page
-│
-├── index.html ← Main page with all content
-├── style.css ← CSS for layout, hover effects, visibility transitions
-├── myscript.js ← (Optional) JS for dynamic behavior
-├── images/ ← Folder for background, journey, experience, trust etc. images
-└── README.md ← This file
-
----
 ⭐ If you like this project, consider giving it a star on GitHub!
 
 
